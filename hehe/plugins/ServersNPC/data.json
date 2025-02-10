@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk2NzUzNjY1MywKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9",
+    "signature": "onK7vaMp+MCOOJpaaI3FxrJ6QU1JeGeJr3T1hBVFq+wGD9LlEtnRzFPXPA95p3OgWALLiZJk8nGuPeuCcrzlu04cV2VXKZ0XPY3P6YmgQlpBN8LJY3unO0YQUJSFDpvuXqJFGgw9Q6mTmcJRWdzTj8baWknLgPD1QqQn+yJlSp4f29rxKnJ3qBCsE1JkEmuFR8LuClvjOAQOjVpSv/OV3AJXkyZaLWs0IJSgOiqnBmz8SUdV1nFLEBPwwH1KhglgdpDb/I5TqnF5ZwHHy5BRVT7uC802Bu6tU98oNLOuRSVQEKUDk+bwitBpL5FXapf0xai85qzQ8B37Bn1YdUjlc00jHyMOaiurIodrr1h6i9PDhTuhG2PYiC1gPLPxp8ZqKMbrYfGkYPUZfjKM45BmvJhfN5n3lT4gOOvxC0Q/ievqEqTGORU6fWxD6MPqH2v5OpYeGNG/hflGmdy9bmSeVfSp5lXHzkZD+RW0+CCSXDBYRkHnnBfnYrRLnMFKWWP3SofWOujxp4KUO/PiNk+WlilXfMFW/aqMkV+Qwb/DCd3XflpK/1LNck71oWvkvnKbR9XEdU+iwbyphMVH7bqZosqIqC6GNsvQupV+FP7KW2M0WqO7QcOKr2/jQtxwbXzsHmP69+Hl4PUInZlaTxHjKSnUndE4TrSKBawp+Abf+5o=",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -28.5,
+      "y": 86.0,
+      "z": 7.5,
+      "yaw": -160.57483,
+      "pitch": -0.19044873
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&eSURVIVAL",
+      "%player_ping%ms"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mv tp world1",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp survival",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp lobby",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp survival",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -22.5,
+      "y": 86.0,
+      "z": 7.5,
+      "yaw": -174.9477,
+      "pitch": 19.572403
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "COMING..."
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA0NjgzMzU5MCwKICAicHJvZmlsZUlkIiA6ICJmOTU3NTM5NDcwM2Y0N2NhOGM5MDJkN2ZkMzJiNjgxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb2JieSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mODE4NWQzNTg3YzQ4M2QxODM1OWEzNTRjZWVhNTljYmEwY2I5YTk0N2ZlYjE4ZjcxZTgxMmIxMDEwOGMyYWMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "signature": "tV4l1IuT6rMg1X6umO2EcCFAegmKLG6apgP/nknCQKAJYAFF2N1OgrS045XTu9POPBe9FIKg6XSIjqGISI0YtqEzzONPQKRjnMUX5UeOfxLXSyGjPvMuTv3D0O46PsLmZQ44IY5Vb6o1G9kD93E5/WMcjBbE4hqMH5WsBXkZMCr2Ypczoc1ZTUB2q7Knl2rD2vEAd5qjuUpP9fRhc0sEZ0fnULQ+uEvEI8uAu2MYzcYILDE00rNgEL+NJznoG4mIwXTC6UCWapgVKZb/kjKl05as6GDTWhwHjwmEJSPimZsl8lNvlGelcevr3wDR8Fj3t0ejUtaijCXqsKZisvVWHGumy6UftnfbP9IYTi0vyp45B0Oo34txRKe2nhfM+QscYQDxnonqvnhZ5f502LO544DrQxvsVNBX8+MOKlGYqzSKZ0PCH1gt6YSuu43PjOMQW63mlcr8BKCH96wkA5fkCFC3vBkJa48D5qb1cHtR5osqNhBxqs1txgGAKBLLzDFdMIK1E5stWcDF3bmb5V8M6nXzv1TihweiXFbt6XiKLw5fSNYGhLZ8RA5BWrD7T9ADrgtkYKdjGpa8cjDIIER/LjkpbpslKqZ/Hg3PRzYayDnLEoJfUT2vwS0DdQ/AqdnuoZb330GJ7IF1bjmiJVKSk+KvzBtLdnoG2IwHmUr6jbQ=",
+    "skinName": "Steve",
+    "location": {
+      "world": "world1",
+      "x": 25.5,
+      "y": 111.0,
+      "z": -166.5,
+      "yaw": -16.845184,
+      "pitch": 31.070774
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&eLOBBY",
+      "%player_ping%ms"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mv tp world",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp lobby",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  }
+]
