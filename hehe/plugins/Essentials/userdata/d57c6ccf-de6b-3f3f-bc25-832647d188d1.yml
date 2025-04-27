@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739147480319
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739147482767
+  login: 1739147138226
+money: '0'
+last-account-name: ManzEndXD
+logoutlocation:
+  world: 3d10f1d2-6c76-4373-83a0-43fe9d2d0cd6
+  world-name: world
+  x: -25.5
+  y: 85.0
+  z: -2.5
+  yaw: -1.0779781341552734
+  pitch: 42.759639739990234
+lastlocation:
+  world: 320fe125-12a8-4c2d-8af9-f5707bc9d8c9
+  world-name: world1
+  x: 7.551789214667369
+  y: 105.11743042378755
+  z: -516.1476644626646
+  yaw: 143.94747924804688
+  pitch: 41.85055160522461

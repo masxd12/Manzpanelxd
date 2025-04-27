@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739146731140
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739146736843
+  login: 1739146688379
+money: '0'
+last-account-name: beaconcream
+logoutlocation:
+  world: 3d10f1d2-6c76-4373-83a0-43fe9d2d0cd6
+  world-name: world
+  x: -26.302935683292898
+  y: 85.0
+  z: 0.8315294793454739
+  yaw: 17.966232299804688
+  pitch: 20.84083366394043
+lastlocation:
+  world: 320fe125-12a8-4c2d-8af9-f5707bc9d8c9
+  world-name: world1
+  x: 25.32875757509367
+  y: 110.0
+  z: -164.6808403572433
+  yaw: -165.15866088867188
+  pitch: 3.4028127193450928

@@ -1,0 +1,219 @@
+# Use %p% to insert the plugins prefix.
+# All messages support HEX color codes on 1.16+. Format: {#FFFFFF}
+# Almost all messages support PlaceholderAPI.
+prefix: "&7[&9AdvancedEnchantments&7]&r "
+
+effects:
+  steal-money: "&6%attacker% &7가 &6%amount% &7�?�?� &6%victim%&7�?게 훔쳤습니다!&7"
+  used: "&r%enchant-color% %level%"
+
+commands:
+  no-permission: "&c당신�?� 권한�?� 없습니다!"
+  offline-player: "&c그 플레�?�어는 접�?중�?� 아닙니다"
+  enchantment-not-found: "&c�?�챈트 &c&n%enchant%&c는 찾�?�수없습니다."
+  invalid-amount: "&c무효한 숫�?입니다.1-64사�?� 여야합니다."
+  invalid-enchant: "&c%enchant%는 유효한 �?�챈트가 아닙니다!"
+  invalid-level: "&c무효한 레벨입니다! %levels%�?� 사용해주세요"
+  invalid-usage: "&c사용법: %usage%"
+  not-a-number: "&c%number%는 숫�?가 아닙니다!"
+  not-holding-item: "&c아�?�템�?� 들고 있어야합니다!"
+  enchantment-info:
+    invalid-usage: "&c무효한 사용법 입니다! �?절한 사용법: %command% <enchantment>"
+    open-menu-message: "&7&e%enchant% &7�?�챈트�? 대한 정보입니다."
+  enchants:
+    open-menu-message: "&7모든 �?�챈트 목�?�?� 보여주는중입니다..."
+  apply:
+    cooldown: "&c명령어를 %seconds% 초 �?�후�? 사용할수 있습니다."
+    no-args: "&c�?용�?� 플레�?�어를 지정해주세요."
+    reapplied: "&a갑옷�?� 다시 �?용�?�었습니다."
+    reapplied-other: "&a%player%�?� 갑옷�?� 다시 �?용 �?�었습니다."
+    reapplied-for-all: "&a모�?�?� 갑옷�?� 다시 �?용�?�었습니다!"
+  withdrawsouls:
+    invalid-usage: "&c사용법: /withdrawsouls <count>"
+    less-than-one: "&c숫�?는 무조건 양수여야합니다."
+    invalid-item: "&c무효한 아�?�템입니다."
+  aegive:
+    invalid-material: "&c무효한 물체입니다. 'materials.yml'�?� 유효한 물체를 참조해주세요"
+    invalid-item-flag: "&c무효한 아�?�템 플래그입니다! 다�?� 중�?서 선�?할 수 있습니다: %itemflags%"
+    invalid-enchantment: "&c무효한 �?�챈트입니다!"
+    success: "&a&2%amount%x %material% &a%player%&a�? 주었습니다!"
+  gedit:
+    unknown-gkit: "&c%gkit% 유효한 gkit�?� 아닙니다!"
+    edit:
+      invalid-usage: "&c사용법: /gedit edit <gkit>"
+    set-permission:
+      invalid-usage: "&c사용법: /gedit setpermission <gkit> <perm>"
+      success: "&e&6%gkit%'s&e kit 권한�?� &6%permission%으로 바뀌었습니다"
+    reset:
+      invalid-usage: "&c사용법: /gedit reset <gkit> <player>"
+      success: "&6%gkit% &6gkit�?�&e%player%�? 초기화 �?�었습니다"
+    list: "&eGKits: &6%gkits%"
+    setdelay:
+      invalid-usage: "&c사용법: /gedit setdelay <gkit> <delay (in seconds)>"
+      invalid-delay: "&c%delay% 는 유효한 정수가 아닙니다!"
+      success: "&e&6%gkit%&e�?� 딜레�?�가 &6%delay%초로 바뀌었습니다"
+  main:
+    unknown-command: "&c틀린 명령어 입니다! T \"/ae\"를 입력해 올바른 명령어를 찾아보세요."
+    setsouls:
+      invalid-usage: "&c틀린 명령어 입니다! /ae setsouls <amount>를 사용하세요"
+      invalid-item: "&c무효한 아�?�템입니다."
+      success: "&c아�?�템�?� 소울�?� %amount%개로 설정합니다"
+    unenchant:
+      invalid-usage: "&c틀린 명령어 입니다! /ae unenchant <enchant>를 사용하세요"
+      invalid-enchant: "&c%enchant%는 유효한 �?�챈트가 아닙니다!"
+      not-holding-item: "&c아�?�템�?� 들고 있어야 합니다!"
+      does-not-have-enchant: "&c그 아�?�템�?� &4%enchant%&c가 없습니다!"
+      success: "&a%enchant%를 삭제했습니다!"
+    zip:
+      zip-exists: "&c다시 시�?�해주세요."
+      success: "&e모든 플러그�?� �?��?�터 압축파�?��?� %path%�? �?겼습니다."
+      error: "&c파�?��?� 압축하는�?� 오류가 발�?했습니다! 버킷창�?� 확�?�해 정보를 확�?�해보세요."
+    greset:
+      reset: "&a %gkit% kit �?�%player%�? 초기화했습니다!"
+      reset-all: "&a모든 GKits�?� %player%�? 초기화 했습니다!"
+    claim:
+      invalid-usage: "&c�?�챈트 토�?��?� 입력해주세요."
+    givegkit:
+      success: "&cKit %gkit%�?� %player%�?게 주어졌습니다"
+    giverandombook:
+      success: "&a&2%player% %amount%x %group% &a책�?� 주었습니다"
+    givebook:
+      success: "&aGave &2%player% %amount%x %enchant% %level% &abooks!"
+    enchant:
+      added: "&aAdded the %enchant% enchant!"
+      upgraded: "&2Upgraded %enchant% from level %previous-level% to %level%."
+      downgraded: "&2Downgraded %enchant% from level %previous-level% to %level%."
+      removed: "&cRemoved the %enchant% enchant from the item."
+    giveitem:
+      success: "&7Added %amount%x %item%&7 for player &b%player%"
+    givercbook:
+      success: "&aGave &2%player% %amount%x %group% &aright click books!"
+    give:
+      success: "&aSuccessfully gave %player% one %enchant% %level% book!"
+    tinkereritem:
+      success: "&cGave x%amount% tinkerer item's to %player%"
+    admin:
+      invalid-page: "&cInvalid page"
+    info:
+      - "&eInformation about &6%enchant% &eenchantment&7:"
+      - "&6Description&7: &e%description%"
+      - "&6Applies to&7: &e%applies%"
+      - "&6Max level&7: &e%max-level%"
+
+    pastetypes: "&aEnchantment type list: %url%"
+    pasteenchants: "&aEnchantments list: %url%"
+    open: "&aOpened %menu% for %player%!"
+
+token:
+  success: "&2&lx &aSuccessfully downloaded token &l%token%&a enchantment, reloading..."
+
+interact:
+  main-hand-only: "&cYou can only do that with your main hand!"
+
+enchanter:
+  re-buy: "&cPlease re-buy the item from the enchanter."
+  disabled-in-world: "&cThe Enchanter is disabled in this world."
+  full-inventory: "&cYour inventory is full!"
+  examine-book: "&7You examined %group-color%%group-name%&7 book and found %enchant-color% %level%"
+  unknown-payment-method: "&cFailed to validate %paymentType% payment method, please contact an administrator."
+  successful-purchase: "&aPurchase successful!"
+  cannot-afford:
+    - "&cYou do not have enough EXP to purchase that."
+    - "&7Your XP: %exp%"
+
+tinkerer:
+  trade-accepted: "&a거래 !"
+  non-tradeable-item:
+    - "&cThe Server Tinkerer doesn't want that item!"
+    - "&7It will only accept custom enchanted equipment"
+
+alchemist:
+  doesnt-accept: "&cAlchemist가 그 아�?�템�?� 수�?�하지 않습니다!"
+  trade-cancelled: "&c거래가 취소�?�었습니다."
+  cannot-afford: "&c당신�?� �?� 거래를 �?당할 수 없습니다!"
+  exceeds-max-level: "&c합친 레벨�?� 최대 �?�챈트 레벨�?� 초과합니다!"
+
+gkits:
+  no-permission: "&e%gkit%&6키트를 받�?� 권한�?� 없습니다."
+  cooldown: "&e그 키트를 아�? 사용할 수 없습니다, 키트 &6%gkit%�?�&7(%cooldown%)초 쿨타임�?� 기다려야합니다"
+  used-kit: "&e다�?� 키트를 사용했습니다 &6%gkit%."
+  missing-permission: "&cGkit %gkit%'�?� 권한�?� 잘못�?�었거나 존재하지 않습니다"
+  unknown-gkit: "&cGKit %gkit%�?� 존재하지 않습니다!"
+  unknown-enchant: "&7�?�챈트 %enchant%를 확�?�할수 없습니다."
+
+heroic:
+  cannot-apply: "&c�?� 아�?�템�? �?�리스탈 업그레�?�드를 �?용할 수 없습니다."
+  upgrade-failed: "&c�?�리스탈 업그레�?�드가 &n실패&c하였습니다!"
+
+orbs:
+  cannot-apply: "&c�?� 아�?�템�? 오브를 사용할 수 없습니다!"
+  failed: "&c오브 �?용 실패!"
+  incompatible: "&c사용 가능한 슬롯보다 낮�?� 슬롯 오브를 �?용할 수 없습니다!"
+
+sets:
+  commands:
+    unknown-command: "&c명령어를 찾지 못했습니다!  \"/asets\" 를 입력해 유효한 명령어를 확�?�해보세요."
+    invalid-usage: "&c틀린 사용법입니다! �?절한 사용법�?� 위해 /asets를 확�?�해보세요 ."
+    invalid-set: "&c세트가 무효합니다."
+    invalid-set-piece: "&c무효한 세트 조�?입니다, 다�?� 세트 조�?�?� 사용해주세요: \n%set pieces%"
+    invalid-weapon: "&c무효한 무기입니다."
+    offline-player: "&c플레�?�어가 오프�?��?� �?태입니다."
+    invalid-chances: "&c무효한 기회입니다."
+    list:
+      header: "&e사용 가능한 세트 목�? &7[%size%]"
+      set: " &8>> &f%set%"
+    listweapons:
+      header: "&e사용 가능한 무기 목�? &7[%size%]"
+      weapon: " &8>> &f%weapon%"
+    give:
+      success: "&f %set% &e세트를 &f%player%�?게 주었습니다"
+    givepiece:
+      success: "&f%set%�?� &f%piece%를 &e%player%�?게 주었습니다"
+    weapon:
+      success: "&f %weapon% &e세트를 &f %player% &e�?게 주었습니다"
+
+items:
+  randomization-scroll:
+    cannot-apply: "&c�?� 아�?�템�? �?용할 수 없습니다!"
+    single-items-only: "&c하나�?� 아�?�템�?만 사용할 수 있습니다!"
+  black-scroll:
+    full-inventory: "&c�?�벤토리가 가�?찼습니다!"
+    no-enchants: "&c�?� 아�?�템�?� �?�챈트가 하나�?� 없습니다!"
+    invalid-enchant: "&c잘못�?� �?�챈트�?�므로 제거할 수 없습니다!"
+    cannot-remove: "&c�?�챈트 %enchant%를 제거할 수 없습니다!"
+  soul-tracker:
+    disabled: "&cSouls�?� �?� 서버�?서 활성화 �?�어있지 않습니다!"
+    apply-successful: "&f&lSoul Tracker &7가 아�?�템�? 성공�?으로 �?용�?�었습니다!"
+  magic-dust:
+    full-inventory: "&�?�벤토리가 가�?찼습니다!"
+    single-items-only: "&c아�?�템 하나�?만 사용할 수 있습니다!"
+  white-scroll:
+    full-inventory: "&c�?�벤토리가 가�? 찼습니다!"
+    apply-successful: "&aWhite scroll�?� 당신�?� 아�?�템�? �?용�?�었습니다!"
+    item-saved: "&aWhite scroll�?� 아�?�템�?� 지켰습니다!"
+
+combining:
+  already-max-level: "그 �?�챈트는 �?�미 최대레벨입니다!"
+  success: "&a성공! &7%enchant%는 �?�제 %level% 레벨 입니다!"
+  failure: "&c결합�?� 실패했습니다!"
+  something-went-wrong: "&c결합중 무언가 문제가 �?겼습니다."
+
+enchant-limitations:
+  cannot-be-modified: "&c�?� 아�?�템�?� 수정할 수 없습니다!"
+
+applying:
+  not-applicable-with: "&c그 &4%enchant1% &c�?�챈트는 &4%enchant2%&7 &c와 같�?� �?용할 수 없습니다!"
+  requires-enchant: "&c그 &4%enchant1% &c는 �?�챈트 하기 위해서&4%enchant2%&7 &c�?�챈트가 �?용�?�어있어야합니다!"
+  already-applied: "&c�?�미 그 �?�챈트가 �?용�?�어있습니다."
+  applied: "&a�?�챈트가 아�?�템�? �?용�?�었습니다."
+  max-level: "&c그 �?�챈트는 �?�미 최대 레벨입니다!"
+  wrong-material: "&c그 �?�챈트는 그 아�?�템�? �?용할 수 없습니다."
+
+slots:
+  limit-reached: "&c남�?� 공간�?� 없어 새로운 �?�챈트를 �?용할 수 없습니다!"
+
+chances:
+  book-failed: "&c�?�챈트�?는 실패했지만 아�?�템�?� 사�?�지지 않았습니다!"
+
+destroy:
+  book-failed: "&c�?�챈트가 실패했습니다!"

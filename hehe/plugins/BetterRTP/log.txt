@@ -1,0 +1,21 @@
+2025-02-10 00:15:35 [INFO]: Loading Overrides...
+2025-02-10 00:15:35 [INFO]: Loading World Types...
+2025-02-10 00:15:35 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-02-10 00:15:35 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-02-10 00:15:35 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-02-10 00:15:35 [INFO]: Loading Defaults...
+2025-02-10 00:15:35 [INFO]: Loading Custom Worlds...
+2025-02-10 00:15:35 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-02-10 00:15:35 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-02-10 00:15:35 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-02-10 00:15:38 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-02-10 00:15:38 [INFO]: Database COOLDOWN:world1 configured and loaded!
+2025-02-10 00:15:38 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-02-10 00:15:38 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-02-10 00:15:38 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-02-10 00:15:39 [INFO]: Attempting to queue up some more safe locations...
+2025-02-10 00:15:39 [INFO]: Queueing paused, max queue limit reached!
+2025-02-10 00:30:08 [WARNING]: Seems like the world `world1` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- world1: NETHER`
+2025-02-10 00:30:08 [INFO]: -Removed a queue Location{world=CraftWorld{name=world1},x=122.5,y=113.0,z=-308.5,pitch=19.21309,yaw=126.92897}
+2025-02-10 00:31:02 [INFO]: -Removed a queue Location{world=CraftWorld{name=world1},x=477.5,y=84.0,z=-711.5,pitch=-3.7836957,yaw=71.32056}
+2025-02-10 00:31:09 [INFO]: -Removed a queue Location{world=CraftWorld{name=world1},x=21.5,y=107.0,z=-502.5,pitch=19.572407,yaw=-98.59668}
