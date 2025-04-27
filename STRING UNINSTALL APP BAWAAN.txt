@@ -1,0 +1,11 @@
+String Uninstall Dan Install Kembali 
+
+
+Uninstall 
+pm uninstall -k --user 0 Package Name Viewer 
+
+Install Kembali 
+pm install-existing Package Name Viewer
+
+Device No-Root Udah Enak Skrang Yah Wkwk
+Salam Dari Saya Ilham Yahya Nugraha 
